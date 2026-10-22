@@ -1,0 +1,134 @@
+/* Base Styles */
+body {
+    background: white;
+    color: black;
+}
+
+/* Navbar Section */
+.custom-navbar {
+    background-color: var(--bs-primary, #0967f3);
+}
+
+.navbar a {
+    color: white;
+}
+
+.container-fluid {
+    justify-content: space-between;
+}
+
+/* Hero Section */
+.hero-section {
+    background: rgb(233, 235, 238);
+    min-height: 320px;
+}
+
+.hero-section p {
+    color: rgb(112, 119, 119);
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.features .col-4 {
+    padding: 0 25px;
+    text-align: center;
+}
+
+.features i {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.features h4 {
+    margin-bottom: 15px;
+}
+
+.features p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+
+
+/* Courses Section & Cards */
+.courses-section {
+    background: rgb(233, 235, 238);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-body h4,
+.card-body p {
+    color: black;
+}
+
+/* Footer Section */
+.site-footer {
+    background-color: var(--bs-primary, #0967f3);
+}
+
+.site-footer p,
+.site-footer a,
+.site-footer span {
+    color: white;
+}
+
+/* Dark Mode Styles */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+body.dark-mode .custom-navbar {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .hero-section,
+body.dark-mode .courses-section {
+    background-color: #181818;
+}
+
+body.dark-mode .hero-section p,
+body.dark-mode .features p {
+    color: #b0b0b0;
+}
+
+body.dark-mode .features h2,
+body.dark-mode .courses-section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    background-color: #1f1f1f;
+    border-color: #2c2c2c;
+}
+
+body.dark-mode .card-body {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .card-body h4,
+body.dark-mode .card-body p {
+    color: #f8f9fa;
+}
+
+body.dark-mode .site-footer {
+    background-color: #1f1f1f;
+}
